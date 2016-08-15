@@ -15,8 +15,8 @@
 ### 1) LETS CREATE THE NEXT FACEBOOK ##
   # We are creating the next facebook and we want to create a class so that our website can scale easily to accomodate our potential 1.7 billion users.  Those users have something called attributes and methods.
 
-  #Attributes are the nouns. They are what describe a user.
-  #Methods are the verbs. They are what a user is able to do.
+  # Attributes are the nouns. They are what describe a user.
+  # Methods are the verbs. They are what a user is able to do. It's their functionality. 
 
 
 ### 2) PLAN BEFORE WE PROCEED ###
@@ -95,10 +95,16 @@
       ## CREATE A READER FOR USERNAME ##
 
 
+### 9) ATTR SHORTHANDS
+        #Readr & Writer methods are so common, ruby made us super quick shorthands!
+        #The attr methods are conventional to user
+
+        #There is attr_reader
+                  #attr_writer
+                  #attr_accessor
 
 
-
-### 9) WHAT OTHER CLASSES DOES FACEBOOK HAVE? ###
+### 10) WHAT OTHER CLASSES DOES FACEBOOK HAVE? ###
 
   #With a pair, make a list of other classes facebook probably hash
 
