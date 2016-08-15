@@ -11,12 +11,20 @@
     #Then, as a user signs up, a new user object is created and they just need to populate the object with their specific data.
 
 
+####################################################
+
+                    #LEVEL ONE
+
+                    #user class
+
+####################################################
+
 
 ### 1) LETS CREATE THE NEXT FACEBOOK ##
   # We are creating the next facebook and we want to create a class so that our website can scale easily to accomodate our potential 1.7 billion users.  Those users have something called attributes and methods.
 
   # Attributes are the nouns. They are what describe a user.
-  # Methods are the verbs. They are what a user is able to do. It's their functionality. 
+  # Methods are the verbs. They are what a user is able to do. It's their functionality.
 
 
 ### 2) PLAN BEFORE WE PROCEED ###
@@ -104,9 +112,17 @@
                   #attr_accessor
 
 
+####################################################
+
+                #LEVEL TWO
+
+              #another fb class
+
+####################################################
+
 ### 10) WHAT OTHER CLASSES DOES FACEBOOK HAVE? ###
 
-  #With a pair, make a list of other classes facebook probably hash
+  #With a pair, make a list of other classes facebook probably has
 
   #Then create a new class for one of those classes!
     #Make sure to plan what attributes and functionality this class has first!
