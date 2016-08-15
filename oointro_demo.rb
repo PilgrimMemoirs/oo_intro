@@ -112,6 +112,8 @@
                   #attr_accessor
 
 
+##### CHECK YO SELF: MAKE SURE METHODS HAVE A RETURN VALUE! ######
+
 ####################################################
 
                 #LEVEL TWO
