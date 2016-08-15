@@ -31,10 +31,13 @@
   ###What attributes does a user have?
       #(with a pair, use a whiteboard to make a list of user's attributes)
 
+      #First Name, Last Name, DOB, Password, Email, Relationship Status, Username
+
 
   ###What functionality does a user have?
       #(with a pair, use a whiteboard to make a list of user's functionality. As a FB user, what am I able to do?)
 
+      #Change Privacy, Like something, React to something, Make a post, Comment, Creating groups, Creating events
 
 
 
@@ -42,10 +45,48 @@
   #Coders Gonna Code
 
 
+class User
+  attr_accessor :email
+
+  def initialize(email, password)
+    puts "Welcome to Facebook!"
+    @active = false
+    @email = email
+    @password = password
+  end
+
+
+  def activate
+    @active = true
+    return "You're active! Yay!"
+  end
+
+  #Reader
+  # def email
+  #   @email
+  # end
+  #
+  # #Writer
+  # def email=(e)
+  #   @email = e
+  # end
+
+end
+
+# user1 = User.new("Userone@email.com", "123ABC").activate
+# user2 = User.new("Usertwo@email.com", "password")
+user3 = User.new("userthree@email.com", "fancyPassword987")
+
+user3.email = "u3@email.com"
+puts user3.email
+
+
+
+
   ##Start with the keyword 'class' and be sure to have an end.
   ##Then give our class a name.
       #Class naming conventions:
-          #Must be capitalized & use camel case for multiple words.
+          #Must be capitalized & use camel case for multiple words. Singular.
 
 
 ### 4) OUR FIRST CLASS METHOD ###
