@@ -47,8 +47,14 @@
 
 
 ### 5) TIME TO TEST IT! ###
-    #Before we get too carried away, now is a good time to test to make sure
+    #Before we get too carried away, now is a good time to test to make sure our code works as expected!
 
+      #Lets create three different user objects
+
+      #And activate two of them
+
+
+      #Like any other data we created before (like strings, integers and data structures), we should store them in variables so we can call on those same objects later in our code
 
 
 ### 6) THE INITIALIZE METHOD ###
@@ -63,4 +69,38 @@
     #Then, when we call the activate method, it will change that value to true. This is like a terrible version of email verification.
 
 
-    #The intialize method ALWAYS has the same name, 'initalize'. And is setup like you would any other method with the keyword def and end. 
+    #The intialize method ALWAYS has the same name, 'initalize'. And is setup like you would any other method with the keyword def and end.
+
+
+### 7) INITIALIZE WITH ARGUMENTS
+        # Just as you can with any other method, an initialize can take arguments!
+        # This is perfect for making sure you get specific data before a user can be created!
+
+
+### 8) READER & WRITER METHODS FOR ATTRIBUTES ###
+      #Also known as Getter and Setter Methods.
+
+      #The data we add to a class is only accessible within the class.
+      #With most attributes, we want a way of being able to call that data outside of the class and to also be able to update or add new data.
+
+      #We will be able to do that will reader & writer methods!
+
+      #This part can be confusing, since our reader & write will have the same method name, but will have different functionality with slightly different syntax.
+
+
+
+      ## CREATE A WRITER FOR USERNAME ##
+
+
+      ## CREATE A READER FOR USERNAME ##
+
+
+
+
+
+### 9) WHAT OTHER CLASSES DOES FACEBOOK HAVE? ###
+
+  #With a pair, make a list of other classes facebook probably hash
+
+  #Then create a new class for one of those classes!
+    #Make sure to plan what attributes and functionality this class has first!
