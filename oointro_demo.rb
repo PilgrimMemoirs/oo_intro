@@ -24,7 +24,7 @@
   # We are creating the next facebook and we want to create a class so that our website can scale easily to accomodate our potential 1.7 billion users.  Those users have something called attributes and methods.
 
   # Attributes are the nouns. They are what describe a user.
-  # Methods are the verbs. They are what a user is able to do. It's their functionality.
+  # Methods are the verbs. They are what a user is able to do. It's their behavior.
 
 
 ### 2) PLAN BEFORE WE PROCEED ###
@@ -33,7 +33,7 @@
 
 
   ###What functionality does a user have?
-      #(with a pair, use a whiteboard to make a list of user's functionality)
+      #(with a pair, use a whiteboard to make a list of user's functionality. As a FB user, what am I able to do?)
 
 
 
