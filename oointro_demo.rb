@@ -12,17 +12,55 @@
 
 
 
-### LETS CREATE THE NEXT FACEBOOK ##
+### 1) LETS CREATE THE NEXT FACEBOOK ##
   # We are creating the next facebook and we want to create a class so that our website can scale easily to accomodate our potential 1.7 billion users.  Those users have something called attributes and methods.
-  
+
   #Attributes are the nouns. They are what describe a user.
   #Methods are the verbs. They are what a user is able to do.
 
 
-  ### PLAN BEFORE WE PROCEED ###
+### 2) PLAN BEFORE WE PROCEED ###
   ###What attributes does a user have?
       #(with a pair, use a whiteboard to make a list of user's attributes)
 
 
   ###What functionality does a user have?
       #(with a pair, use a whiteboard to make a list of user's functionality)
+
+
+
+
+### 3) LETS CODE IT OUT ###
+  #Coders Gonna Code
+
+
+  ##Start with the keyword 'class' and be sure to have an end.
+  ##Then give our class a name.
+      #Class naming conventions:
+          #Must be capitalized & use camel case for multiple words.
+
+
+### 4) OUR FIRST CLASS METHOD ###
+  #This class is great. But it's not doing anything....
+
+  #Lets create a method called 'activate', that when called, will give us a friendly message stating that we are now an active FB user!
+
+
+### 5) TIME TO TEST IT! ###
+    #Before we get too carried away, now is a good time to test to make sure
+
+
+
+### 6) THE INITIALIZE METHOD ###
+    #The intialize method runs by default as soon as an object is created.
+    #This is great for gathering data that you will initially need from a user (like name, birthdate, email)
+    #(I gurantee you will spell it wrong many times and get errors.)
+
+
+
+    #Before we start gathering information on our user, we are going to build on our previous method, activate.
+    #Our user is going to have a default value of 'false' for an @active attribute (using an instance variable).
+    #Then, when we call the activate method, it will change that value to true. This is like a terrible version of email verification.
+
+
+    #The intialize method ALWAYS has the same name, 'initalize'. And is setup like you would any other method with the keyword def and end. 
